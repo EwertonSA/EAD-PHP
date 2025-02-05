@@ -1,6 +1,7 @@
 node_modules/      # Ignorar pacotes do Node.js
 vendor/            # Ignorar pacotes do PHP (Composer)
 dist/              # Ignorar arquivos de build
-lib/.env               # Ignorar variáveis de ambiente (senhas, chaves)
+lib/.env           # Ignorar variáveis de ambiente (senhas, chaves)
+.env               # Ignorar arquivo .env na raiz do projeto, se houver
 layout/
 upload/
